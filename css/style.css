@@ -1,0 +1,40 @@
+.araclar{
+    border: 1px solid #CCC;
+    padding: 5px;
+    background-color: #EEE;
+}
+.araclar .btn-tool{
+     background-color: #333; 
+     color:#FFF; 
+     border:1px solid #CCC;
+     border-radius: 8px;
+     padding: 5px;
+}
+.nesne-gosterici{
+    border:1px solid #CCC;
+    padding:5px;
+    margin-top: 5px;
+    position: relative;
+}
+.gosterici-ayarla{
+    cursor:crosshair;
+    position: relative;
+}
+.kare-nesnesi{
+    border:1px dotted #333;
+    background-color: #666;
+    opacity: 0.5;
+    position:absolute; 
+    left:0px; 
+    top:0px;
+    z-index: 9999;
+
+}
+
+.kare-nesnesi-2{
+    border:none !important;
+    background-color: #333 !important;
+    opacity: 1 !important;
+    position:absolute; 
+    z-index: 9999;
+}
